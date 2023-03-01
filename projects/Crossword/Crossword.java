@@ -126,7 +126,7 @@ public class Crossword{
         for (ConcurrentHashMap.Entry<int[],int[]> mapElement : map.entrySet()) { //insert char into each point
             int[] key = mapElement.getKey();
             int[] value = (mapElement.getValue());
-            for(int i = gaprow -)
+            //for(int i = gaprow -)
         }
 
         //actually displays baord
