@@ -53,9 +53,11 @@ public class Crossword{
             return;
         }
 
+        if(index1 >= word1.length() || index2 >= word2.length()) return;
+
         if (!(word1.getWord().toLowerCase().charAt(index1) == word2.getWord().toLowerCase().charAt(index2))) {
             //System.out.println(word1.getWord().toLowerCase().charAt(index1) + " " + word2.getWord().toLowerCase().charAt(index2));
-            if (index1 == word1.getWord().length() - 1) {
+            if (index1 >= word1.getWord().length() - 1) {
                 findIndex(index1 - word1.getWord().length() + 1, index2 + 1, word1, word2, index);
             }
             else{
@@ -112,7 +114,7 @@ public class Crossword{
         //initializes board with bullets
         for(int i = 0; i < board.length; i++){
             for(int j = 0; j < board[0].length; j++){
-                board[i][j] = '•';
+                board[i][j] = ' ';
             }
         }
 
@@ -126,7 +128,9 @@ public class Crossword{
         for (ConcurrentHashMap.Entry<int[],int[]> mapElement : map.entrySet()) { //insert char into each point
             int[] key = mapElement.getKey();
             int[] value = (mapElement.getValue());
-            //for(int i = gaprow -)
+            for(int i = 0; i < words[key[1]].length(); i++){
+                board[i + (gaprow - value[1])][value[0]] = words[key[1]].toString().charAt(i);
+            }
         }
 
         //actually displays baord
@@ -149,7 +153,7 @@ public class Crossword{
         holidayScramble(); //scramble holidays in array
 
         for(int i = 0; i < fivetoeight; i++) holidayList.add(holidays[i]); // add 5-8 holidays to arraylist
-        System.out.println(holidayList); //remove when project is done
+        //System.out.println(holidayList); //remove when project is done1
         for(int i = 0; i < fivetoeight; i++){
             words[index] = new Word(holidayList.get(index));
         }
@@ -168,8 +172,7 @@ public class Crossword{
                 }
             }
         };
-        System.out.println(unusedWords);
-        //i really dont know how to do this wihtout a hashmap forgive me
+        //sigh
         ConcurrentHashMap<int[]/*index of overlapping words in array words[]*/, int[]/*index of overlap respectively*/> map = new ConcurrentHashMap<>();
         ArrayList<Integer> taken = new ArrayList<>();
         int temp1 = 0;
@@ -234,14 +237,13 @@ public class Crossword{
                 if (words[key[0]].getWord().toLowerCase().charAt(value[0]) != words[key[1]].getWord().toLowerCase().charAt(value[1])) {
                     map.remove(key);
                     unusedWords.add(key[1]);
-                } else {
-                    System.out.println(Arrays.toString(key) + " : " + Arrays.toString(value));
                 }
             }
 
-        }
+        }/*
         System.out.println(unusedWords);
         System.out.println(map);
+        */
         displayBoard(words, map, taken);
         //debug moment end
 

@@ -2,7 +2,6 @@ package PascalsTriangle;
 
 import java.util.*;
 class Main{
-    public static ArrayList<Integer> list = new ArrayList<>();
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         System.out.println("enter the number of lines:");
@@ -11,17 +10,6 @@ class Main{
             System.out.println(Arrays.toString(Layer(i)));
         }
     }
-
-    /*
-    public static int[] printTriangle(int layers){
-        if(currentlayer == layers){
-            list.add(0, new int[]{1});
-            return null;
-        }
-        list.add(0, new int[]{})
-    }
-
-     */
 
     public static int[] Layer(int n) {
         int[] x = new int[n + 1];
@@ -37,4 +25,3 @@ class Main{
         return x;
     }
 }
-//finish
