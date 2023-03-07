@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd605216-46f7-477c-9d9c-3b9733ef0a55" name="Changes" comment="1st commit">
+      <change afterPath="$PROJECT_DIR$/projects/SmallProjectsOrHW/LinearAndBinarySearch/LinearAndBinarySearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/other work/PascalsTriangle/PascalsTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/other work/PascalsTriangle/PascalsTriangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice-it/solver ig.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice-it/solver ig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/Crossword/Crossword.java" beforeDir="false" afterPath="$PROJECT_DIR$/projects/Crossword/Crossword.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +40,11 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
@@ -49,8 +52,8 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Crossword.Main">
-    <configuration name="Crossword.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="Crossword.Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Crossword.Main" />
       <module name="untitled" />
       <extension name="coverage">
@@ -72,7 +75,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Crossword.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -86,6 +88,9 @@
       <option name="presentableId" value="Default" />
       <updated>1677624109494</updated>
       <workItem from="1677702327073" duration="1133000" />
+      <workItem from="1678123653768" duration="705000" />
+      <workItem from="1678128341576" duration="1570000" />
+      <workItem from="1678138319937" duration="3168000" />
     </task>
     <task id="LOCAL-00001" summary="yes">
       <created>1677631499394</created>
@@ -143,12 +148,17 @@
           <line>57</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/projects/SmallProjectsOrHW/LinearAndBinarySearch/LinearAndBinarySearch.java</url>
+          <line>83</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/projects/SmallProjectsOrHW/LinearAndBinarySearch/LinearAndBinarySearch.java</url>
+          <line>94</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="words[key[1]].length()" />
-      </configuration>
-    </watches-manager>
   </component>
 </project>
