@@ -62,7 +62,7 @@ public class LinearAndBinarySearch {
         System.out.println("Populated with distinct values: " + Arrays.toString(arr));
     }
 
-    public static void linearSearch(int[] arr, int target) {
+    public static void linearSearch(int[] arr, int target, boolean print) {
         for(int i = 0; i < arr.length; i++){
             comparisons++;
             if(arr[i] == target){
@@ -70,17 +70,19 @@ public class LinearAndBinarySearch {
                 break;
             }
         }
-        if(index != -1){
-            System.out.println("Index found: " + index);
-        } else{
-            System.out.println("Index not found :(");
+        if(print) {
+            if (index != -1) {
+                System.out.println("Index found: " + index);
+            } else {
+                System.out.println("Index not found :(");
+            }
+            System.out.println("Comparisons: " + comparisons);
         }
-        System.out.println("Comparisons: " + comparisons);
         totalcomparisonsLinear+=comparisons;
         reset();
     }
 
-    public static void binarySearch(int[] arr, int target){
+    public static void binarySearch(int[] arr, int target, boolean print){
         int startindex = 0;
         int endindex = arr.length - 1;
         int searchindex = arr.length/2;
@@ -100,12 +102,14 @@ public class LinearAndBinarySearch {
             }
         }
         index = searchindex;
-        if(index != -1){
-            System.out.println("Index found: " + index);
-        } else{
-            System.out.println("Index not found :(");
+        if(print){
+            if(index != -1){
+                System.out.println("Index found: " + index);
+            } else{
+                System.out.println("Index not found :(");
+            }
+            System.out.println("Comparisons: " + comparisons);
         }
-        System.out.println("Comparisons: " + comparisons);
         totalcomparisonsBinary+=comparisons;
         reset();
     }
@@ -118,20 +122,19 @@ public class LinearAndBinarySearch {
         int num = sc.nextInt();
         System.out.println();
         System.out.println("Linear search: ");
-        linearSearch(arr, num);
+        linearSearch(arr, num, true);
         System.out.println();
         System.out.println("Binary search: ");
-        binarySearch(arr, num);
+        binarySearch(arr, num, true);
         System.out.println();
         System.out.println("Beginning 999 tests w/ random targets... ");
         Thread.sleep(1000);
         int test = 1;
         for(; test <= 1000; test++){
             int rnum = random();
-            linearSearch(arr, rnum);
-            binarySearch(arr, rnum);
+            linearSearch(arr, rnum, false);
+            binarySearch(arr, rnum, false);
         }
-        for(int i = 0; i < 20; i++) System.out.println();
         System.out.println("Linear comparisons: " + totalcomparisonsLinear);
         System.out.println("Binary comparisons: " + totalcomparisonsBinary);
     }
