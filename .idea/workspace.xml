@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd605216-46f7-477c-9d9c-3b9733ef0a55" name="Changes" comment="1st commit">
-      <change afterPath="$PROJECT_DIR$/projects/SmallProjectsOrHW/LinearAndBinarySearch/LinearAndBinarySearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +89,7 @@
       <workItem from="1677702327073" duration="1133000" />
       <workItem from="1678123653768" duration="705000" />
       <workItem from="1678128341576" duration="1570000" />
-      <workItem from="1678138319937" duration="3168000" />
+      <workItem from="1678138319937" duration="3836000" />
     </task>
     <task id="LOCAL-00001" summary="yes">
       <created>1677631499394</created>
@@ -150,12 +149,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/projects/SmallProjectsOrHW/LinearAndBinarySearch/LinearAndBinarySearch.java</url>
-          <line>83</line>
+          <line>84</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/projects/SmallProjectsOrHW/LinearAndBinarySearch/LinearAndBinarySearch.java</url>
-          <line>94</line>
+          <line>92</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
