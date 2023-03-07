@@ -31,6 +31,8 @@ import java.util.*;
 public class LinearAndBinarySearch {
 
     //declarations ------------------------
+    static int totalcomparisonsBinary = 0;
+    static int totalcomparisonsLinear = 0;
     static int[] arr = new int[1000];
     static Scanner sc = new Scanner(System.in);
 
@@ -74,6 +76,7 @@ public class LinearAndBinarySearch {
             System.out.println("Index not found :(");
         }
         System.out.println("Comparisons: " + comparisons);
+        totalcomparisonsLinear+=comparisons;
         reset();
     }
 
@@ -103,10 +106,11 @@ public class LinearAndBinarySearch {
             System.out.println("Index not found :(");
         }
         System.out.println("Comparisons: " + comparisons);
+        totalcomparisonsBinary+=comparisons;
         reset();
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         populate(arr);
         Arrays.sort(arr);
         System.out.println("Sorted array: " + Arrays.toString(arr));
@@ -118,6 +122,18 @@ public class LinearAndBinarySearch {
         System.out.println();
         System.out.println("Binary search: ");
         binarySearch(arr, num);
+        System.out.println();
+        System.out.println("Beginning 999 tests w/ random targets... ");
+        Thread.sleep(1000);
+        int test = 1;
+        for(; test <= 1000; test++){
+            int rnum = random();
+            linearSearch(arr, rnum);
+            binarySearch(arr, rnum);
+        }
+        for(int i = 0; i < 20; i++) System.out.println();
+        System.out.println("Linear comparisons: " + totalcomparisonsLinear);
+        System.out.println("Binary comparisons: " + totalcomparisonsBinary);
     }
 }
 
