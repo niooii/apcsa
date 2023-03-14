@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd605216-46f7-477c-9d9c-3b9733ef0a55" name="Changes" comment="1st commit">
-      <change afterPath="$PROJECT_DIR$/projects/SmallProjectsOrHW/SearchAlgImplementations/InsertionSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/SmallProjectsOrHW/SearchAlgImplementations/CollectionInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/projects/SmallProjectsOrHW/SearchAlgImplementations/CollectionInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/SmallProjectsOrHW/SearchAlgImplementations/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/projects/SmallProjectsOrHW/SearchAlgImplementations/InsertionSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +60,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Crossword.Main">
+  <component name="RunManager">
     <configuration name="Crossword.Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Crossword.Main" />
       <module name="untitled" />
@@ -170,7 +169,42 @@
           <line>97</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/projects/SmallProjectsOrHW/SearchAlgImplementations/InsertionSort.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/projects/SmallProjectsOrHW/SearchAlgImplementations/InsertionSort.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/projects/SmallProjectsOrHW/SearchAlgImplementations/InsertionSort.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/projects/SmallProjectsOrHW/SearchAlgImplementations/InsertionSort.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/projects/SmallProjectsOrHW/SearchAlgImplementations/InsertionSort.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/projects/SmallProjectsOrHW/SearchAlgImplementations/InsertionSort.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="isSorted(array, index)" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
