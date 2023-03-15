@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd605216-46f7-477c-9d9c-3b9733ef0a55" name="Changes" comment="1st commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/SmallProjectsOrHW/SearchAlgImplementations/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/projects/SmallProjectsOrHW/SearchAlgImplementations/MergeSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,18 +74,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="apcsa" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Main" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -104,6 +100,7 @@
       <workItem from="1678804621154" duration="931000" />
       <workItem from="1678809560068" duration="1804000" />
       <workItem from="1678815199395" duration="74000" />
+      <workItem from="1678910442090" duration="10286000" />
     </task>
     <task id="LOCAL-00001" summary="yes">
       <created>1677631499394</created>
@@ -201,32 +198,12 @@
           <line>45</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/projects/SmallProjectsOrHW/SearchAlgImplementations/MergeSort.java</url>
-          <line>48</line>
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/projects/SmallProjectsOrHW/SearchAlgImplementations/MergeSort.java</url>
-          <line>49</line>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/projects/SmallProjectsOrHW/SearchAlgImplementations/MergeSort.java</url>
-          <line>38</line>
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/projects/SmallProjectsOrHW/SearchAlgImplementations/MergeSort.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
-      <configuration name="Application">
-        <watch expression="holder.remove(i)" />
-      </configuration>
+      <inline-watch fileUrl="file://$PROJECT_DIR$/projects/SmallProjectsOrHW/SearchAlgImplementations/MergeSort.java" line="89">
+        <watch expression="list.get(i).length" />
+      </inline-watch>
     </watches-manager>
   </component>
 </project>
