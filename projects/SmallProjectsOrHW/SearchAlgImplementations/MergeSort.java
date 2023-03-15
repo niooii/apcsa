@@ -30,9 +30,9 @@ public class MergeSort {
         ArrayList<int[]> holder = new ArrayList<>();
         holder.add(array);
         int tempLength = array.length/2;
-        int orgsize = holder.size();
+        int orgSize = holder.size();
         while(holder.get(0).length != 1) {
-            for (int k = 0; k < orgsize; k++) {
+            for (int k = 0; k < orgSize; k++) {
                 System.out.println("splitting array " + (k + 1));
                 int[] holder1 = new int[tempLength];
                 for (int i = 0; i < tempLength; i++) {
@@ -49,7 +49,7 @@ public class MergeSort {
             for(int i = iterations - 1; i >= 0; i--){
                 holder.remove(i);
             }
-            orgsize = holder.size();
+            orgSize = holder.size();
             System.out.println("split " + debug + ":");
             debug(holder);
             debug++;
