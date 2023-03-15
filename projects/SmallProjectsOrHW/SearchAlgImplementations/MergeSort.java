@@ -16,7 +16,7 @@ public class MergeSort {
     }
 
     public static void main(String[] args){
-        int[] array = {8, 5, -9, 14, 0, -1, -7, 3};
+        int[] array = {8, 5, -9, 14, 0, -1, -7, 3}; // add case for odd number of elements later
         split(array);
     }
 
