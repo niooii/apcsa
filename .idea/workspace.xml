@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd605216-46f7-477c-9d9c-3b9733ef0a55" name="Changes" comment="1st commit">
+      <change afterPath="$PROJECT_DIR$/projects/SmallProjectsOrHW/SearchAlgImplementations/MergeSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/SmallProjectsOrHW/SearchAlgImplementations/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/projects/SmallProjectsOrHW/SearchAlgImplementations/InsertionSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +60,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Crossword.Main">
     <configuration name="Crossword.Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Crossword.Main" />
       <module name="untitled" />
@@ -102,6 +102,9 @@
       <workItem from="1678208254809" duration="1438000" />
       <workItem from="1678648299852" duration="29000" />
       <workItem from="1678648331531" duration="3098000" />
+      <workItem from="1678804621154" duration="931000" />
+      <workItem from="1678809560068" duration="1804000" />
+      <workItem from="1678815199395" duration="74000" />
     </task>
     <task id="LOCAL-00001" summary="yes">
       <created>1677631499394</created>
