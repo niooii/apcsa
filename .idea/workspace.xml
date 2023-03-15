@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd605216-46f7-477c-9d9c-3b9733ef0a55" name="Changes" comment="1st commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/SmallProjectsOrHW/SearchAlgImplementations/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/projects/SmallProjectsOrHW/SearchAlgImplementations/MergeSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -216,11 +215,6 @@
           <url>file://$PROJECT_DIR$/projects/SmallProjectsOrHW/SearchAlgImplementations/MergeSort.java</url>
           <line>38</line>
           <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/projects/SmallProjectsOrHW/SearchAlgImplementations/MergeSort.java</url>
-          <line>42</line>
-          <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/projects/SmallProjectsOrHW/SearchAlgImplementations/MergeSort.java</url>

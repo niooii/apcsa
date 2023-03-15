@@ -11,7 +11,7 @@ public class MergeSort {
         for (int i=0; i<holder.size(); i++){
             int[] tmp = holder.get(i);
                 System.out.print(Arrays.toString(tmp));
-            System.out.println();
+            if(i != holder.size() - 1) System.out.print(", ");
         }
     }
 
