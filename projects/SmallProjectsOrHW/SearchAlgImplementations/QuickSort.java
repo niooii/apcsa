@@ -7,8 +7,8 @@ public class QuickSort {
         if(length < 2){
             return array;
         }
-        int pivot=0;
 
+        int pivot=0;
         int temp;
 
         for(int i=1; i<length; i++) {
@@ -25,12 +25,9 @@ public class QuickSort {
         array[pivot] = temp;
 
         int[] left = QuickSort(array,pivot);
-
         int[] arr2 = Arrays.copyOfRange(array, pivot+1, length);
-
         int[] right = QuickSort(arr2, length-pivot-1);
-
-        int[] holder = new int[length]; //final array, to merge everything together
+        int[] holder = new int[length];
 
         System.arraycopy(left, 0, holder, 0, pivot);
         holder[pivot] = array[pivot];
