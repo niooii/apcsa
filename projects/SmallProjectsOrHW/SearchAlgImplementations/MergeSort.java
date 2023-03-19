@@ -19,12 +19,13 @@ public class MergeSort { //why did this take so long
 
         for (int i=0; i<holder.size(); i++){
             int[] tmp = holder.get(i);
-                System.out.print(Arrays.toString(tmp));
+            System.out.print("{" + Arrays.toString(tmp).substring(1, Arrays.toString(tmp).length() - 1) + "}");
             if(i != holder.size() - 1) System.out.print(", ");
         }
     }
 
     public static void main(String[] args){
+        int[] array = {8, 5, -9, 14, 0, -1, -7, 3};
         int[] yes = MergeSort(array);
         System.out.println();
         System.out.println("finished: " + Arrays.toString(yes));
